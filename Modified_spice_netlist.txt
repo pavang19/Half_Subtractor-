@@ -1,0 +1,66 @@
+* D:\esim\half_sub\half_sub.cir
+
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+xM1  Net-_M1-Pad1_ vin_A vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+		
+xM9  Net-_M1-Pad1_ vin_A GND GND sky130_fd_pr__nfet_01v8 w=.42 l=.5
+		
+xM2  Net-_M2-Pad1_ vin_A vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+		
+xM3  Net-_M2-Pad1_ vin_B vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+		
+xM4  Diff Net-_M1-Pad1_ Net-_M2-Pad1_ vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+		
+xM10  Diff vin_A Net-_M10-Pad3_ GND sky130_fd_pr__nfet_01v8 w=.42 l=.5
+		
+xM12  Net-_M10-Pad3_ vin_B GND GND sky130_fd_pr__nfet_01v8 w=.42 l=.5
+		
+xM11  Diff Net-_M1-Pad1_ Net-_M11-Pad3_ GND sky130_fd_pr__nfet_01v8 w=.42 l=.5
+		
+xM13  Net-_M11-Pad3_ Net-_M13-Pad2_ GND GND sky130_fd_pr__nfet_01v8 w=.42 l=.5
+		
+xM6  Net-_M6-Pad1_ vin_A vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5	
+	
+xM7  Borrow Net-_M13-Pad2_ Net-_M6-Pad1_ vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5	
+	
+xM14  Borrow vin_A GND GND sky130_fd_pr__nfet_01v8 w=.42 l=.5	
+	
+xM15  Borrow Net-_M13-Pad2_ GND GND sky130_fd_pr__nfet_01v8 w=.42 l=.5	
+	
+xM8  Net-_M13-Pad2_ vin_B vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5	
+	
+xM16  Net-_M13-Pad2_ vin_B GND GND sky130_fd_pr__nfet_01v8 w=.42 l=.5	
+	
+xM5  Diff Net-_M13-Pad2_ Net-_M2-Pad1_ vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+		
+
+
+
+Vdd vdd 0 3.3
+
+
+
+Vd0 vin_A 0 pulse(0 3 0s 0s 0s 5us 10us)
+
+Vd1 vin_B 0 pulse(0 3 0s 0s 0s 8us 18us)
+
+
+
+.tran 0.1us 40us
+
+
+
+.control
+
+run
+
+
+
+plot V(vin_A) V(vin_B) V(Diff) V(Borrow)
+
+
+
+.endc	
+
+.end
