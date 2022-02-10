@@ -93,8 +93,8 @@ The above waveform matches with the reference waveform and the truth table ,henc
 * [SAFAL COE ,KARNATAKA](https://www.sfalcoe.com/)
 
 
-### 7.AUTHOR
-PAVAN P GUTTI , 5th sem B.E (ECE), SRI DHARMASTHALA MANJUNATHESHWARA COLLEGE OF ENGINEERING AND TECHNOLOGY (SDMCET) ,DHARWAD-580002
+### 9.AUTHOR
+PAVAN P GUTTI , 5th sem B.E (ECE), SDM COLLEGE OF ENGINEERING AND TECHNOLOGY  ,DHARWAD-580002
 * Contact : pavan.gutti2@gmail.com
 
 
