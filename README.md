@@ -2,7 +2,7 @@
 This repository presents the Design and implementation of Half Subtractor uing eSim (An open-source Electronic Design Automation tool  and Sky 130nm PDKs (Process Design Kit).
 ## Table of contents
 #### 1.[ABSTRACT](https://github.com/pavang19/Half_Subtractor-/edit/main/README.md#1-abstract )
-#### 2.[eSIM EDA TOOL](https://github.com/pavang19/Half_Subtractor-/edit/main/README.md#2esim-eda-tool-1)
+#### 2.[eSIM EDA TOOL](https://github.com/pavang19/Half_Subtractor-/edit/main/README.md#2esim-eda-tool)
 #### 3.[Sky130 PDK](https://github.com/pavang19/Half_Subtractor-/edit/main/README.md#3sky-130-pdk)
 #### 4.[CIRCUIT DESIGN](https://github.com/pavang19/Half_Subtractor-/edit/main/README.md#4circuit-design-1)
 #### 5.[IMPLEMENTATION](https://github.com/pavang19/Half_Subtractor-/edit/main/README.md#5implementation-1)
