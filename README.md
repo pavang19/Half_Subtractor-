@@ -161,7 +161,7 @@ The above waveform matches with the reference waveform and the truth table ,henc
 
 ### 7.REFERENCES
 
-[1] Tanvi Sood,Rajesh Mehra(2013) Design of a low power half subtractor using 90um cmos technology .IOSR Journal of VLSI and Signal Processing.https://www.iosrjournals.org/iosr-jvlsi/papers/vol2-issue3/H0235156  <br />
+[1] Tanvi Sood,Rajesh Mehra(2013) Design of a low power half subtractor using 90um cmos technology .IOSR Journal of VLSI and Signal Processing.https://www.iosrjournals.org/iosr-jvlsi/papers/vol2-issue3/H0235156.pdf  <br />
 [2] Monikashree T.S, Divya A, Kithara V, Nithya Shree S,Area efficient Full Subtractor design using CMOS Technology.ITSI Transactions on Electrical and Electronics Engineering (ITSI-TEEE) <br />
 
 
