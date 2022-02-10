@@ -74,7 +74,7 @@ And the .cir file is saved inside the sky 130 pdk folder and it is simulated usi
 
 
 
-#### 6.RESULTS
+### 6.RESULTS
 
 The circuit is simulated using Ngspice simulator .
 SPICE SIMULATION RESULTS:
