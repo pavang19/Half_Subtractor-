@@ -29,12 +29,14 @@ For more information: https://esim.fossee.in/home
 
 
 ### 3.Sky 130 PDK
+
 Google and SkyWater Technology collaborated to release the industry’s first open source foundry process design kit (PDK) known as SKY130 (130 nm CMOS technology) under an Apache 2.0 license, giving designers worldwide access to use the technology for new IP functions as well as complete open source ASICs.<br />
 For SkyWater Open Source PDK documentation :https://skywater-pdk.readthedocs.io/en/main/  <br />
 To download Sky130 PDK :https://static.fossee.in/esim/installation-files/sky130_fd_pr.zip
 
 
 ### 4.CIRCUIT DESIGN
+
 The 1-bit  half subtractor accepts two binary inputs A and B and produces the output difference and borrow.The proposed design can have four possible combinations of inputs and corresponding four outputs of difference and borrow respectively.The input combinations are 00,01.10 and 11 .<br />
 The truth table of 1-bit Half Subtractor is as below-<br />
 
@@ -52,7 +54,10 @@ Difference = A XOR B  <br />
 
 
 
+
+
 ### 5.IMPLEMENTATION
+
 The schematic of half subtractor is designed on eSim .CMOS logic consists of one pullup and pulldown network .The pullup network consists of pmos whereas the pull down network consists of nmos. The circuit has mainly an inverter for obtaining the inverted input and an AND gate which is used to design the borrow and an XOR gate is used to generate the difference output.<br />
 The AND gate is implemented using CMOS design with 2 pmos in series and two nmos in parallel.Similarly the XOR gate is also realized using CMOS design with four pmos and four n-mos transistors in the pullup and pull down network respectively.
 
@@ -70,6 +75,7 @@ And the .cir file is saved inside the sky 130 pdk folder and it is simulated usi
 
 
 #### 6.RESULTS
+
 The circuit is simulated using Ngspice simulator .
 SPICE SIMULATION RESULTS:
 
@@ -84,16 +90,19 @@ The above waveform matches with the reference waveform and the truth table ,henc
 
 
 ### 7.REFERENCES
+
 [1] Tanvi Sood,Rajesh Mehra(2013) Design of a low power half subtractor using 90um cmos technology .IOSR Journal of VLSI and Signal Processing.https://www.iosrjournals.org/iosr-jvlsi/papers/vol2-issue3/H0235156  <br />
 [2] Monikashree T.S, Divya A, Kithara V, Nithya Shree S,Area efficient Full Subtractor design using CMOS Technology.ITSI Transactions on Electrical and Electronics Engineering (ITSI-TEEE) <br />
 
 
 ### 8.ACKNOWLEDGEMENT
+
 * [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd 
 * [SAFAL COE ,KARNATAKA](https://www.sfalcoe.com/)
 
 
 ### 9.AUTHOR
+
 PAVAN P GUTTI , 5th sem B.E (ECE), SDM COLLEGE OF ENGINEERING AND TECHNOLOGY  ,DHARWAD-580002
 * Contact : pavan.gutti2@gmail.com
 
